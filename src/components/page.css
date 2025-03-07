@@ -1,0 +1,13 @@
+
+.h{
+    font-size: 4.2vw;
+    font-weight: 500;
+    white-space: pre-line;
+}
+ .page{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    padding-left: 50px;
+ }
