@@ -12,7 +12,7 @@
     justify-content: right;
     justify-self: right;
     justify-items: right;
-    background-color: var(.boxes);
+    background-color: var(visible);
 }
 
 .hidden {
@@ -42,3 +42,30 @@
     color: white;
 }
 
+@media only screen and (max-width: 991px){
+    .btn{
+        background-color: #dbff00;
+        border: 0.5px solid white;
+        font-family: Aeonikpro, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1;
+        margin: 1%;
+        margin-left: 62vw;
+        border-radius: 30px;
+        padding: 6px 18px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .logo{
+        position: absolute;
+        margin-top: 1vh;
+        margin-left: -40px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .btn{
+        display: none !important;
+    }
+}

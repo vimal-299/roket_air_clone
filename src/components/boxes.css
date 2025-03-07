@@ -18,10 +18,10 @@
     color: black;  
 }  
 
-.box1:hover ~ .box4,.box2:hover~.box4,.box3:hover~.box4{
+/* .box1:hover ~ .box4,.box2:hover~.box4,.box3:hover~.box4{
     background-color: white;
-    
-}
+    content-visibility: visible;
+} */
 
 .box4{
     overflow: hidden;
@@ -55,4 +55,85 @@ p{
 .box:hover .image{
     filter: invert(100%) ;
     transform: rotate(-45deg);
+}
+
+video{
+    height: 100vh;
+}
+
+@media only screen and (max-width:991px) {
+    .boxes{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box4{
+        display: none !important ;
+
+    }
+    .box{
+        width: 100vw;
+        height: 25vh;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.8vw;
+    }
+    .htwo{
+        font-family: Aeonikpro, sans-serif;
+        font-size: 3.55vw;
+        font-weight: 400;
+        margin-left: 3vw;
+        margin-top: 10vh;
+        position: relative;
+        color: #ffffff;
+    }
+    p{
+        text-align: right;
+        color: #ffffff;
+        position: relative;
+        margin-top: 11.5vh;
+        margin-left: 42vw;
+        font-size: 14px;
+    }
+    .image {
+        position: relative; /* Remove absolute to follow flexbox */
+        width: 25px; /* Adjust size */
+        height: auto;
+        margin-left: auto; /* Pushes it to the right */
+        margin-right: 7.2vw; /* Keeps spacing */
+        margin-top: 0;
+        transition: transform 0.5s ease;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .boxes{
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+    .box4{
+        display: none !important ;
+
+    }
+    .box{
+        width: 100vw;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        padding: 0.8vw;
+        
+    }
+    p{
+        color: #979797;
+        margin-top: 0;
+        text-align: left;
+        position: relative;
+        margin-left: 3.3vw;
+        margin-bottom: 10vh;
+    }
+    .image{
+        position: fixed;
+        margin-top: 10vh;
+        margin-left: 90vw;
+    }
 }

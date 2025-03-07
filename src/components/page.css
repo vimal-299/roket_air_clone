@@ -11,3 +11,9 @@
     align-items: center; 
     padding-left: 50px;
  }
+
+ @media only screen and (max-width:991px) {
+    .h{
+        font-size: 8.4vw;
+    }
+ }

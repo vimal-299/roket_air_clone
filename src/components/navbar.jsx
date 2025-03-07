@@ -20,7 +20,7 @@ export default function NavbarScroll() {
     return (
         <div>
             <nav className={`navbar ${showNavbar ? "visible" : "hidden"}`}>
-                <img src="./logo.svg" alt="" />
+                <img className='logo' src="./logo.svg" alt="" />
                 <button className='btn'>Get in touch</button>
             </nav>
         </div>
