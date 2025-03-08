@@ -1,12 +1,37 @@
-# React + Vite
+# Rocketair Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This task is a clone of two pages of the rocketair website. The goal of this task was to replicate the design and functionality as closely as possible using modern web development techniques.
 
-Currently, two official plugins are available:
+Technologies Used :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    React.js – Used to build the component-based UI.
+    CSS – Styled the pages to match the original website.
+    Framer Motion – Implemented smooth animations for text appearance.
 
-## Expanding the ESLint configuration
+Features Implemented:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    Page 1
+        Responsive layout for different screen sizes.
+
+        Interactive elements styled with hover effects.
+
+
+    Page 2
+        Scroll-triggered animations where text appears line by line as the user scrolls.
+
+        Optimized media queries to disable hover effects on mobile screens.
+
+        Proper component structure and reusable styling.
+
+Installation & Setup:
+
+    Clone the repository:
+        git clone https://github.com/rocket_air_clone.git
+        cd rocket_air_clone
+
+    Install dependencies:
+        npm install
+
+    Start the development server:
+        npm run dev
+
