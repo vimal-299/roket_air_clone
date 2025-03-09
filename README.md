@@ -1,4 +1,4 @@
-# Rocketair Clone
+# RocketAir Clone
 
 This task is a clone of two pages of the rocketair website. The goal of this task was to replicate the design and functionality as closely as possible using modern web development techniques.
 
@@ -10,18 +10,22 @@ Technologies Used :
 
 Features Implemented:
 
+    Navbar 
+        Only visible when user scrolls up the page
+
     Page 1
+        Landing page of the website 
+
+    Page 2
+        Plays the intro video and contains the about section of the site        
+
+    Page 3
         Responsive layout for different screen sizes.
 
         Interactive elements styled with hover effects.
 
-
-    Page 2
+    Page 4
         Scroll-triggered animations where text appears line by line as the user scrolls.
-
-        Optimized media queries to disable hover effects on mobile screens.
-
-        Proper component structure and reusable styling.
 
 Installation & Setup:
 
@@ -34,4 +38,7 @@ Installation & Setup:
 
     Start the development server:
         npm run dev
+
+    Hosted the site on vercel:
+        https://roket-air-clone.vercel.app/
 

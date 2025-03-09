@@ -1,0 +1,109 @@
+.main{
+    margin: 0;
+    padding: 0;
+    height: 70vh;
+    background-color: black;
+    display: grid;
+    overflow: hidden;
+}
+.video_container{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+.video_container video{
+    object-fit: contain;
+}
+.about{
+    height: 100vh;
+    background-color: black;
+    display: grid;
+    align-content: center;
+}
+.hthree{
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 35px;
+    font-family: Aeonikpro, sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+}
+.cont{
+    color: white;
+    letter-spacing: -1px;
+    font-family: Aeonikpro, sans-serif;
+    font-size: 86px;
+    font-weight: 400;
+    line-height: 1;
+
+}
+.left1{
+    margin-top: 80px;
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+.left2{
+    position: absolute;
+    align-self: center;
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+.right{
+    position: absolute;
+    justify-self: right;
+    align-self: center;
+    margin-right: 30px;
+
+}
+.center{
+    position: absolute;
+    justify-self: right;
+    margin-right: 30px;
+    align-self: flex-end;
+    margin-bottom: 90px;
+}
+
+@media only screen and (max-width: 768px){
+    .cont{
+        color: white;
+        letter-spacing: -1px;
+        font-family: Aeonikpro, sans-serif;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 1;
+    }
+    .left1{
+        margin-top: 80px;
+        margin-bottom: 0;
+        margin-left: 50px;
+    }
+    .left2{
+        display: inline;
+        position: unset;
+        align-self: center;
+        margin-bottom: 0;
+        margin-left: 50px;
+    }
+    .right{
+        display: block !important;
+        position: unset;
+        justify-self: left;
+        align-self: center;
+        margin-left: 50px;
+    
+    }
+    .center{
+        display: inline ;
+        position: relative;
+        justify-self: left;
+        margin-left: 50px;
+    }
+    .hthree{
+        font-size: 24px;
+        font-weight: 200;
+    }
+}

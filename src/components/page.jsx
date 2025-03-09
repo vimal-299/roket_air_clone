@@ -17,7 +17,7 @@ const Page = () => {
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.2 }}
-                    viewport={{once:true, amount: 0.2 }} /* Animation starts when 20% of line is visible */
+                    viewport={{once:true, amount: 0.2 }} 
                 >
                     <h2 className="h">{line}</h2>
                 </motion.div>
